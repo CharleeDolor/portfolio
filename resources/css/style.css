@@ -10,6 +10,10 @@
         height: 300px !important;
     }
 
+    .slider {
+        height: 325px !important;
+    }
+
     .greeting-text {
         font-size: 2.5rem;
     }
