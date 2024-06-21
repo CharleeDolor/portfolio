@@ -47,8 +47,14 @@ $(document).ready(function () {
     var slider = $('.slider').slider({
         duration: 5,
     });
-
+    
     $('.slider').slider('pause');
+
+    $('.indicator-item').click(function(){
+        $('.slider').slider('pause');
+    });
+
+    
 
     $('.materialboxed').materialbox();
     $(".dropdown-trigger").dropdown();
