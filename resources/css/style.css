@@ -545,19 +545,19 @@ h1 .type3:hover {
     }
 
     &:nth-of-type(1) {
-        animation: rotate-text-up 2s 2s;
+        animation: rotate-text-up 2s 0.5s;
     }
 
     &:nth-of-type(2) {
-        animation: rotate-text-up 2s 4s;
+        animation: rotate-text-up 2s 2.5s;
     }
 
     &:nth-of-type(3) {
-        animation: fade-text-in 2s 6s;
+        animation: fade-text-in 2s 4.5s;
     }
 
     &:nth-of-type(4) {
-        animation: fade-text-in 2s 8s forwards;
+        animation: fade-text-in 2s 6.5s forwards;
     }
 }
 
