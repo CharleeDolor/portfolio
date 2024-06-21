@@ -49,9 +49,8 @@ $(document).ready(function () {
         interval: 6000
     });
 
-    setTimeout(function () {
-        clearInterval(slider[0].M_Slider.interval);
-    }, 0);
+    var instance = M.Slider.getInstance($('.slider')[0]);
+    clearInterval(instance.interval);
 
     $('.materialboxed').materialbox();
     $(".dropdown-trigger").dropdown();
