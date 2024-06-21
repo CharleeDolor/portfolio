@@ -45,12 +45,10 @@ $(document).ready(function () {
 
     $('.tabs').tabs();
     var slider = $('.slider').slider({
-        duration: 0,
-        interval: 6000
+        duration: 5,
     });
 
-    var instance = M.Slider.getInstance($('.slider')[0]);
-    clearInterval(instance.interval);
+    $('.slider').slider('pause');
 
     $('.materialboxed').materialbox();
     $(".dropdown-trigger").dropdown();
